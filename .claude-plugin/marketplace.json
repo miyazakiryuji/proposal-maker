@@ -1,0 +1,14 @@
+{
+  "name": "proposal-maker-marketplace",
+  "description": "proposal-maker の配布マーケットプレイス。営業の提案資料づくりを、ヒアリングから構成・清書までまとめて手伝ってくれる。",
+  "owner": {
+    "name": "宮崎"
+  },
+  "plugins": [
+    {
+      "name": "proposal-maker",
+      "source": ".",
+      "description": "営業の提案資料づくりを、ヒアリングから構成・清書までまとめて手伝ってくれる。"
+    }
+  ]
+}
