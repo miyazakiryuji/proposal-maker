@@ -1,6 +1,6 @@
 {
   "name": "proposal-maker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "営業の提案資料づくりを、ヒアリングから構成・清書までまとめて手伝ってくれる。",
   "author": {
     "name": "宮崎"

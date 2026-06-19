@@ -9,6 +9,7 @@ description: 資料をHTML形式で出力するとき（1ファイル完結のWe
 - すべてを1つの `.html` に収める。CSSは `<style>`、JSは `<script>` として**ファイル内にインライン**で書く（外部CSS/JS・CDN・外部リンク参照をしない）。
 - 先頭に `<!DOCTYPE html>`、`<html lang="ja">`、`<meta charset="utf-8">`、`<meta name="viewport" content="width=device-width, initial-scale=1">`。
 - 日本語が綺麗なフォント：`font-family: system-ui, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Meiryo", sans-serif;`
+- **まだ「■デザイン方針」が決まっていなければ、出力の前に必ず `material-design` スキルでデザインの希望をヒアリングする**（ユーザーは「おまかせ」でも可）。デザインを聞かずに生成を始めない。
 - `material-design` でまとめた「■デザイン方針」（配色・トーン・レイアウト・ロゴ）を反映する。指定が無い項目は読みやすさ優先の既定で補う。
 - 読みやすい配色・余白・行間。`max-width` で中央寄せ。スマホでも崩れない。見出し階層を明確に。
 - 印刷／PDF化しやすいよう `@media print` を入れる。
